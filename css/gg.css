@@ -1,0 +1,120 @@
+.doctorimg{
+    width: 100%;
+    padding-top: 50px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+  }
+  .flex-fill:hover{
+    color: red;
+  }
+
+.top_header{
+    position: relative;
+}
+.titlemain{
+    position: absolute;
+    top: 50%;
+}
+
+.main{
+    padding-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slogan{
+    padding-left: 10%;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.form{
+
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    box-shadow: 100px black;
+    border-radius: 10px;
+    width: 70;
+}
+
+.form h4{
+    padding-left: 10px;
+}
+.layer1{
+    display: flex;
+    width: 100%;
+
+}
+
+
+.layer2{
+    display: flex;
+    width: 100%;
+}
+
+.select{
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    color: grey;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+select{
+    width: 308px;
+    height: 40px;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #17C1A3;
+    border-radius: 10px;
+    border-style:hidden;
+}
+
+
+
+.mid_header{
+    display:flex;
+    width: 40%;
+    position: absolute;
+    top: 75%;
+    padding-left: 42px;
+}
+
+.mid1{
+    flex: 3;
+    padding-left: 30px;
+}
+.mid2{
+    flex: 1;
+}
+.mid3{
+    flex: 3;
+}
+
+.mid1 button{
+    margin-left: -10%;
+    align-items:end;
+}
+
+.mid3 a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}

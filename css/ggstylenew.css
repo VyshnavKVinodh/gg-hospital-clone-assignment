@@ -1,0 +1,106 @@
+body {
+  font-family: "Inter", sans-serif;
+  padding: 10vh;
+}
+.flex-fill:hover {
+  color: red;
+}
+.header{
+    position: relative;
+}
+
+.image_content .L{
+    position: absolute;
+    font-size: 400%;
+    top: 50%;
+}
+
+.image_content .H{
+    position: absolute;
+    font-size: 110%;
+    top: 78%;
+    color: #444444;
+}
+
+.image_content button{
+    position: absolute;
+    top: 88%;
+    background-color: #17C1A3;
+    max-width: fit-content;
+    box-shadow: 10px black;
+    color: white;
+}
+
+.mid img{
+    position: absolute;
+    top: 88.5%;
+    left: 26%;
+}
+
+.mid a{
+    position: absolute;
+    top: 89%;
+    left: 30%;
+    color: black;
+    text-decoration: underline;
+
+}
+form{
+    position: absolute;
+    top: 99%;
+    background-color: white;
+    border-radius: 10px;
+    width: 75%;
+    margin-left: 0%;
+}
+
+
+.layer1{
+    width: 100%;
+}
+
+.layer2{
+    width: 100%;
+}
+
+.select{
+    width: 100%;
+    
+    padding: 1%;
+}
+
+input{
+    color: grey;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    padding: 2%;
+}
+
+select{
+    color: black;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.select button{
+    position: absolute;
+    top: 80%;
+    background-color: #17C1A3;
+    box-shadow: 10px black;
+    color: white;
+}
+
+.col .card{
+    border-style: none;
+}
+
+.col .card .card-body a{
+    text-decoration: underline;
+}
+
+.whyGG img{
+    background: url(../img/newsletter-sub-bg-design.png );
+}
